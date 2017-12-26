@@ -1,4 +1,4 @@
-(function ($) {
+Ôªø(function ($) {
     
     $('#wiki-body .markdown-body').prepend("<div id='toc'><div>");
     $('#wiki-body .markdown-body').addClass('toc-mian-body')
@@ -17,7 +17,7 @@
       
       'headerText': function(i, heading, $heading) { //custom function building the header-item text
           var rank = $heading.prop("tagName").substr(1)
-          return "°Ò"/* chinese huge dot */ + $heading.text(); 
+          return "‚óè"/* chinese huge dot */ + $heading.text(); 
       },
     });
 
