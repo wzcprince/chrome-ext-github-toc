@@ -24,15 +24,32 @@
 }
 
 #toc .toc-h1 {
-  padding-left: 0px;
+  margin-left: 0px;
+  list-style: none;
 }
 
 #toc .toc-h2 {
-  padding-left: 0px;
+  margin-left: 10px;
+  list-style: none;
 }
 
 #toc .toc-h3 {
-  padding-left: 10px;
+  margin-left: 20px;
+  list-style: none;
+}
+
+#toc .toc-h4 {
+  margin-left: 30px;
+  list-style: none;
+}
+
+#toc .toc-h5 {
+  margin-left: 40px;
+  list-style: none;
+}
+
+#toc .toc-h6 {
+  margin-left: 50px;
   list-style: none;
 }
 /*
